@@ -1,9 +1,9 @@
 #### Modules ###
-import module
+import python_ricochet.module as module
 module.printValues("Hola python!")
 module.sumValues(33, 44)
 
-from module import sumValues, printValues
+from python_ricochet.module import sumValues, printValues
 
 sumValues(22, 88)
 printValues("Rayos") 
